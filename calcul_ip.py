@@ -43,7 +43,9 @@ def calculer_informations_reseau(ip_str):
 
         nombre_sous_reseaux = 2 ** nombre_de_bits_1 - 2                                             # Calcule pour le nombre de sous réseaux
 
+
         # ______________________________ - Afficher les résultats - ______________________________
+
         print("CALCULE EN COURS") ; time.sleep(0.25)
 
         print(f"Classe de l'adresse IP : {classe_ip}") ; time.sleep(0.25)
@@ -67,7 +69,9 @@ def calculer_informations_reseau(ip_str):
     except ValueError:
         print("Adresse IP invalide.")
 
+
 # ______________________________ - Exemple d'utilisation - ______________________________
+
 adresse_ip = input("Entrez une adresse IP (format CIDR, par exemple 192.168.1.0/24) : ")
 calculer_informations_reseau(adresse_ip)
 
