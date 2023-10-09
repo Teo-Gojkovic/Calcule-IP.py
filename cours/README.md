@@ -82,3 +82,7 @@ Il y a 20 0 dans le masque, on doit en faire une puissance de 2 et on le soustra
 Les classe d’IP sont les suivante :
 
 <img src="../images/classe-ip.png" alt="classe-ip" width="500px"/>
+
+## Auteur
+
+[![Teo GOJKOVIC](https://img.shields.io/badge/Teo_GOJKOVIC-222e45?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Teo-Gojkovic)
