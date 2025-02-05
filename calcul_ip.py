@@ -10,7 +10,7 @@ def calculer_informations_reseau(ip_str):
         classe_ip = 'A' if ip.is_private and ip.prefixlen == 8 else \
                     'B' if ip.is_private and ip.prefixlen == 16 else \
                     'C' if ip.is_private and ip.prefixlen == 24 else \
-                    'A' if 1 <= ip.network_address.packed[0] <= 126 else \
+                    'A' if 1 <= ip.network_address.packed[0] <= 127 else \
                     'B' if 128 <= ip.network_address.packed[0] <= 191 else \
                     'C' if 192 <= ip.network_address.packed[0] <= 223 else 'D ou E'
 
